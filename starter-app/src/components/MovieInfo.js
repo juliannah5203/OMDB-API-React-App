@@ -1,12 +1,12 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import './MovieInfo.css';
 import Movies from './Movies';
 
-function MovieInfo() { 
+function MovieInfo() {
     const [movies, setMovies] = useState([]);
     const [query, setQuery] = useState("");
     const [showMovies, setShowMovies] = useState(false);
-
+    
     function handleSubmit(e) {
         e.preventDefault();
         async function fetchMyAPI() {
@@ -23,25 +23,22 @@ function MovieInfo() {
         setQuery("");
     }
 
-
-    return (
-        <div className="movieInfo">
-            This is where the movie will go.
-            <form onSubmit = {handleSubmit}>
-                <label htmlFor="queryInput">
-                    Search Movie Name:
-                </label>
-                <input
-                id = "queryInput"
-                value = {query}
-                type = "text"
-                onChange = {e=>setQuery(e.target.value)}/>
-
-                <button className = "search">Submit</button>
-
+    return(
+        <div className="movieinfo">
+            <form onSubmit={handleSubmit}>
+                <div class="topnav">
+                    <label htmlFor="queryInput">Enter Movie Name:</label>
+                    <input 
+                        id="queryInput" 
+                        value={query} 
+                        autoFocus
+                        type="text"
+                        onChange={e => setQuery(e.target.value)}/>
+                    <button className="search">Search</button>
+                </div>
             </form>
+            {showMovies ? <Movies movies={movies}></Movies> : <></>}
         </div>
-        
     )
 }
 

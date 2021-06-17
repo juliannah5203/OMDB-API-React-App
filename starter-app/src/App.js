@@ -9,9 +9,10 @@ import MovieInfo from './components/MovieInfo';
 function App() {
   return (
     <div className="App">
-      <Header title='Movies'></Header>
-      <Footer title='2021'></Footer>
+      <Header title='Movie Search Tool'></Header>
+
       <MovieInfo></MovieInfo>
+      <Footer title='2021'></Footer>
       
 
     </div>
