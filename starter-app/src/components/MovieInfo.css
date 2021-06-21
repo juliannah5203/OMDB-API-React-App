@@ -49,4 +49,17 @@ label {
     border: 1px solid white;
     
 }
+.next {
+    background-color: gray;
+    padding: 15px 20px;
+    height: 10px;
+    color: white; 
+    border-radius: 15px;
+    display: block;
+    line-height: 0px;
+    font-size: 16px;
+    margin-top: 0.2em;
+    margin-left: 3em;
+}
+
     

@@ -12,7 +12,7 @@ function MovieInfo() {
         async function fetchMyAPI() {
             const searchParam = encodeURIComponent(query);
             // const apiUrl = `https://www.omdbapi.com/?apikey=e147964d&t=${searchParam}&r=json`;
-            const apiUrl = `https://www.omdbapi.com/?apikey=e147964d&s=${searchParam}&type=movie&r=json`;
+            const apiUrl = `https://www.omdbapi.com/?apikey=e147964d&s=${searchParam}&type=movie&r=json&page=1`;
             console.log(apiUrl);
             let response = await fetch(apiUrl);
             response = await response.json();

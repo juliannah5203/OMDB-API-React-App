@@ -12,7 +12,7 @@ function Movies(props) {
                      <Card.Img variant="top" src={movie.Poster} />
                      <Card.Body>
                          <Card.Title>{movie.Title}</Card.Title>
-                         <Card.Text>
+                         <Card.Text class = "cardtext">
                              Released Date: {movie.Released} <br/>
                              Runtime: {movie.Runtime} <br/>
                              Genre: {movie.Genre} <br/>
