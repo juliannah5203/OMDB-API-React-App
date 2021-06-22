@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/OMDB-API-React-App/static/css/main.f50f491c.chunk.css",
+    "main.js": "/OMDB-API-React-App/static/js/main.946a63c9.chunk.js",
+    "main.js.map": "/OMDB-API-React-App/static/js/main.946a63c9.chunk.js.map",
+    "runtime-main.js": "/OMDB-API-React-App/static/js/runtime-main.b8f82c4b.js",
+    "runtime-main.js.map": "/OMDB-API-React-App/static/js/runtime-main.b8f82c4b.js.map",
+    "static/js/2.81943b22.chunk.js": "/OMDB-API-React-App/static/js/2.81943b22.chunk.js",
+    "static/js/2.81943b22.chunk.js.map": "/OMDB-API-React-App/static/js/2.81943b22.chunk.js.map",
+    "static/js/3.2c490568.chunk.js": "/OMDB-API-React-App/static/js/3.2c490568.chunk.js",
+    "static/js/3.2c490568.chunk.js.map": "/OMDB-API-React-App/static/js/3.2c490568.chunk.js.map",
+    "index.html": "/OMDB-API-React-App/index.html",
+    "static/css/main.f50f491c.chunk.css.map": "/OMDB-API-React-App/static/css/main.f50f491c.chunk.css.map",
+    "static/js/2.81943b22.chunk.js.LICENSE.txt": "/OMDB-API-React-App/static/js/2.81943b22.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8f82c4b.js",
+    "static/js/2.81943b22.chunk.js",
+    "static/css/main.f50f491c.chunk.css",
+    "static/js/main.946a63c9.chunk.js"
+  ]
+}
