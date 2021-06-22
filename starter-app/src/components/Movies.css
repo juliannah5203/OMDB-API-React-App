@@ -18,6 +18,12 @@ td, th {
     margin-top: 1.5em;
     font-size: 1.01em;
 }
-
-
+.title {
+    font-weight: bold;
+    font-size: 1.43em;
+    color: rgb(27, 77, 94);
+}
+.poster {
+    border: 3px solid rgb(17, 92, 212);
+}
   

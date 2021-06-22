@@ -49,4 +49,18 @@ label {
     border: 1px solid white;
     
 }
+.next{
+
+    position: fixed;
+    background-color: lightblue;
+    padding: 15px 20px;
+    height: 10px;
+    color: black; 
+    border-radius: 15px;
+    display: block;
+    line-height: 0px;
+    font-size: 20px;
+    margin-top: 0.2em;
+    margin-left: 7.4em;
+}
     
