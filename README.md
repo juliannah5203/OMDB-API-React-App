@@ -1,5 +1,9 @@
 # OMDB-API-React-App
 Submission from Julianna He
 
-<img width="1278" alt="Screen Shot 2021-06-20 at 8 45 18 PM" src="https://user-images.githubusercontent.com/57543226/122704372-6de18680-d208-11eb-928f-091085d98c01.png">
+
+
+
+https://user-images.githubusercontent.com/57543226/123017689-f0da1c80-d381-11eb-853c-caa74c4fae58.mov
+
 
