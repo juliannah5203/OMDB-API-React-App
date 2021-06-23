@@ -6,10 +6,13 @@ import MovieInfo from './components/MovieInfo';
 
 
 
+
 function App() {
   return (
     <div className="App">
-      <Header title='Movie Search Tool'></Header>
+      
+      <Header>
+      </Header>
 
       <MovieInfo></MovieInfo>
       <Footer title='2021'></Footer>

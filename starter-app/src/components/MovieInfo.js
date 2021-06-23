@@ -1,4 +1,4 @@
-
+import logo from './lens.png';
 import React, { useState } from 'react';
 import './MovieInfo.css';
 import Movies from './Movies';
@@ -122,9 +122,14 @@ function MovieInfo() {
 
     return(
         <div className="movieinfo">
+            
             <form onSubmit={handleSubmit}>
             <div className="topnav">
-                Enter a Movie Name: 
+               
+                <a href = "/ ">
+                <img src={logo} className="App-logo" alt="logo" />
+                </a>
+                
                 <input
                     id="queryInput"
                     value={query}
@@ -134,12 +139,16 @@ function MovieInfo() {
                 <button className="search">Search</button>
                 </div>
             </form> 
-            <p className="buttons">
+            
+                <p>
             { prevShowUp ? <button className = "prev" onClick = { () => handlePrev()}>&laquo; Prev</button> : <></> }
             { nextShowUp ? <button className = "next" onClick = { () => handleNext()}>Next &raquo;</button> : <></>}
             </p>
+            
+
             { showMovies  ? <Movies movies = {movies}></Movies> : <></>}
             <p></p>
+            
              </div>
     )
 }
