@@ -37,16 +37,12 @@ function MovieInfo() {
                 console.log(apiUrl);
                 console.log(response.Search);
                 for(let i in response.Search) {
-                    console.log(response.Search[i].Title);
                     const apiUrl2 = `https://www.omdbapi.com/?apikey=e147964d&t=${response.Search[i].Title}&r=json`;
-                    console.log(apiUrl2);
                     let response2 = await fetch(apiUrl2);
                     response2 = await response2.json();
-                    console.log(response2);
                     response.Search[i] = response2;
                 }
     
-                console.log(response.Search);
                 setMovies(response.Search);
            
         }
@@ -75,16 +71,12 @@ function MovieInfo() {
                 console.log(apiUrl);
                 console.log(response.Search);
                 for(let i in response.Search) {
-                    console.log(response.Search[i].Title);
                     const apiUrl2 = `https://www.omdbapi.com/?apikey=e147964d&t=${response.Search[i].Title}&r=json`;
-                    console.log(apiUrl2);
                     let response2 = await fetch(apiUrl2);
                     response2 = await response2.json();
-                    console.log(response2);
                     response.Search[i] = response2;
                 }
     
-                console.log(response.Search);
                 setMovies(response.Search);
                 setPrevPage(current);
                 setCurrent(nextPage);
@@ -106,16 +98,12 @@ function MovieInfo() {
                console.log(apiUrl1);
                console.log(response.Search);
                for(let i in response.Search) {
-                console.log(response.Search[i].Title);
                 const apiUrl2 = `https://www.omdbapi.com/?apikey=e147964d&t=${response.Search[i].Title}&r=json`;
-                console.log(apiUrl2);
                 let response2 = await fetch(apiUrl2);
                 response2 = await response2.json();
-                console.log(response2);
                 response.Search[i] = response2;
             }
 
-            console.log(response.Search);
             setMovies(response.Search);
                setNextPage(prevPage + 1);
                setCurrent(prevPage);
