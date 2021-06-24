@@ -13,16 +13,18 @@
     font-family: "Times New Roman", Times, serif;
     color: white;
     font-weight: bold;
+    max-width: 100%;
+
 
 }
 .header-logo-left {
     zoom: 6%;
-    animation: rotation 8s infinite linear;
+    animation: rotation1 8s infinite linear;
 
     
 
 }
-@keyframes rotation {
+@keyframes rotation1 {
   from {
     transform: rotate(0deg);
   }
@@ -31,8 +33,17 @@
   }
 }
 .header-logo-right {
+  
     zoom: 6%;
-    animation: rotation 8s infinite linear;
+    animation: rotation2 8s infinite linear;
 
 
+}
+@keyframes rotation2 {
+  from {
+    transform: rotate(359deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
 }

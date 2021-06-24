@@ -1,5 +1,7 @@
 .movies {
     padding-top: 20px;
+    max-width: 100%;
+
 }
 
 table {
@@ -28,4 +30,7 @@ td, th {
 .poster {
     border: 3px solid rgb(17, 92, 212);
 }
-  
+.linkexternal {
+    font-weight: bold;
+    font-style: oblique;
+}

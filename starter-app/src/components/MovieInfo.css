@@ -11,6 +11,8 @@
     margin-top: 80px;
     background-image: url("background.jpg");
     background-color: #cccccc;
+    max-width: 100%;
+    
 }
 
 form {
@@ -83,6 +85,19 @@ label {
     margin-top: 0.2em;
     margin-left: -19.63em;
     z-index: 1;
+    
+}
+.search:hover {
+    background-color: lightsteelblue;
+    color: black;
+}
+.prev:hover {
+    background-color: lightgray;
+
+}
+.next:hover {
+    background-color: lightgray;
+
 }
 .App-logo {
     zoom: 4.5%;
