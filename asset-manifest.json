@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/OMDB-API-React-App/static/css/main.9d45e040.chunk.css",
-    "main.js": "/OMDB-API-React-App/static/js/main.4eff971c.chunk.js",
-    "main.js.map": "/OMDB-API-React-App/static/js/main.4eff971c.chunk.js.map",
+    "main.css": "/OMDB-API-React-App/static/css/main.250cb749.chunk.css",
+    "main.js": "/OMDB-API-React-App/static/js/main.073d4e23.chunk.js",
+    "main.js.map": "/OMDB-API-React-App/static/js/main.073d4e23.chunk.js.map",
     "runtime-main.js": "/OMDB-API-React-App/static/js/runtime-main.b8f82c4b.js",
     "runtime-main.js.map": "/OMDB-API-React-App/static/js/runtime-main.b8f82c4b.js.map",
     "static/js/2.1dd1810b.chunk.js": "/OMDB-API-React-App/static/js/2.1dd1810b.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.2c490568.chunk.js": "/OMDB-API-React-App/static/js/3.2c490568.chunk.js",
     "static/js/3.2c490568.chunk.js.map": "/OMDB-API-React-App/static/js/3.2c490568.chunk.js.map",
     "index.html": "/OMDB-API-React-App/index.html",
-    "static/css/main.9d45e040.chunk.css.map": "/OMDB-API-React-App/static/css/main.9d45e040.chunk.css.map",
+    "static/css/main.250cb749.chunk.css.map": "/OMDB-API-React-App/static/css/main.250cb749.chunk.css.map",
     "static/js/2.1dd1810b.chunk.js.LICENSE.txt": "/OMDB-API-React-App/static/js/2.1dd1810b.chunk.js.LICENSE.txt",
     "static/media/MovieInfo.css": "/OMDB-API-React-App/static/media/background.8223acc5.jpg",
     "static/media/lens.9e6e03dc.png": "/OMDB-API-React-App/static/media/lens.9e6e03dc.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.b8f82c4b.js",
     "static/js/2.1dd1810b.chunk.js",
-    "static/css/main.9d45e040.chunk.css",
-    "static/js/main.4eff971c.chunk.js"
+    "static/css/main.250cb749.chunk.css",
+    "static/js/main.073d4e23.chunk.js"
   ]
 }
